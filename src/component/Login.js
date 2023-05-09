@@ -7,7 +7,7 @@ const Login = () => {
   const [information, setinformation] = useState({email:"",password:""})
   const handalsubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:10000/api/auth/login", {
+    const response = await fetch( `${process.env.REACT_APP_API_URL}/api/auth/login` "http://localhost:10000", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
