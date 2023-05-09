@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "both": "concurrently \"npm run start\" \" cd.. &&  nodemon  backend/index.js \" ",
-      "install": "npm i"
+      "install": "npm install"
   },
   "eslintConfig": {
     "extends": [
