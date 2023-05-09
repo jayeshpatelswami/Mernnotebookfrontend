@@ -5,7 +5,7 @@ import noteContex from "./NoteContex";
 const Notestate = (props) => {
   const note = [ ];
   // const host = process.env.REACT_APP_PORT;
-   const host = "http://localhost:10000"
+   const host = process.env.REACT_APP_API_URL
   const [notes, setnotes] = useState(note);
 
 
